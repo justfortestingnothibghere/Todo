@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List - Login/Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TODO List</h1>
+    <div id="auth-form">
+      <h2 id="form-title">Login</h2>
+      <form id="auth">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <p><a href="#" id="toggle-form">New user? Signup</a></p>
+      </form>
+      <p id="error" class="error"></p>
+    </div>
+  </div>
+  <script src="auth.js"></script>
+</body>
+</html>
