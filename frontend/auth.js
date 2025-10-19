@@ -1,4 +1,4 @@
-const API_URL = 'https://your-backend.onrender.com/api'; // Replace with your Render backend URL
+const API_URL = 'https://todo-hu1y.onrender.com'; // Replace with your Render backend URL
 
 document.getElementById('auth').addEventListener('submit', async (e) => {
   e.preventDefault();
